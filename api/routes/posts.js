@@ -1,6 +1,6 @@
 // Import neccesssary models and dependencies
 const router = require("express").Router();
-const User = require("../models?User");
+const User = require("../models/User");
 const Post = require("../models/Post");
 
 // Create Post route
@@ -18,7 +18,7 @@ router.post("/", async(req, res) => {
 });
 
 // Update Post route 
-router.push("/:id", async (req, res) => {
+router.put("/:id", async (req, res) => {
     try {
         const post = await Post.findById(req.params.id);
 
