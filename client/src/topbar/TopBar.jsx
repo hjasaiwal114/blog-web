@@ -19,9 +19,9 @@ export default function TopBar() {
                             HOME
                         </Link>
                     </li>
-                    <li className="toplistItem">ABOUT</li>
-                    <li className="tolistItem">CONTACT</li>
-                    <li className="toplistItem">
+                    <li className="topListItem">ABOUT</li>
+                    <li className="topListItem">CONTACT</li>
+                    <li className="topListItem">
                         <Link className="link" to="/write">
                             WRITE
                         </Link>
@@ -30,7 +30,7 @@ export default function TopBar() {
                 </ul>
             </div>
             <div className="topRight">
-                {user? (
+                {user ? (
                     <Link className="link" to="/settings">
                         <img
                           className="topImg"
