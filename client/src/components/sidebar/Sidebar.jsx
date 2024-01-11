@@ -1,13 +1,9 @@
-// Importing necessary dependencies
 import { Link } from "react-router-dom";
 import "./sidebar.css";
 
-// Defining the Sidebar component
 export default function Sidebar() {
-  // Return JSX structure for the Sidebar
   return (
     <div className="sidebar">
-      {/* Sidebar Item - About Me */}
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
@@ -19,12 +15,9 @@ export default function Sidebar() {
           amet ex esse.Sunt eu ut nostrud id quis proident.
         </p>
       </div>
-
-      {/* Sidebar Item - Categories */}
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
         <ul className="sidebarList">
-          {/* List items with category links */}
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Life">
               Life
@@ -35,14 +28,30 @@ export default function Sidebar() {
               Music
             </Link>
           </li>
-          {/* ... (similar list items for other categories) ... */}
+          <li className="sidebarListItem">
+            <Link className="link" to="/posts?cat=Sport">
+              Sport
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link className="link" to="/posts?cat=Style">
+              Style
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link className="link" to="/posts?cat=Tech">
+              Tech
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link className="link" to="/posts?cat=Cinema">
+              Cinema
+            </Link>
+          </li>
         </ul>
       </div>
-
-      {/* Sidebar Item - Follow Us */}
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW US</span>
-        {/* Social icons */}
         <div className="sidebarSocial">
           <i className="sidebarIcon fab fa-facebook-square"></i>
           <i className="sidebarIcon fab fa-instagram-square"></i>

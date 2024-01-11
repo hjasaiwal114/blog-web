@@ -1,4 +1,3 @@
-/* Styles for the Sidebar container */
 .sidebar {
     flex: 3;
     height: fit-content;
@@ -11,14 +10,12 @@
     align-items: center;
   }
   
-  /* Styles for each sidebar item */
   .sidebarItem {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  /* Styles for the title of each sidebar item */
   .sidebarTitle {
     margin: 10px;
     padding: 5px;
@@ -33,25 +30,21 @@
     font-weight: 600;
   }
   
-  /* Styles for images inside sidebar items */
   .sidebarItem > img {
     margin-top: 15px;
     width: 250px;
     height: 250px;
   }
   
-  /* Styles for paragraphs inside sidebar items */
   .sidebarItem > p {
     padding: 30px;
   }
   
-  /* Styles for the list of categories */
   .sidebarList {
     list-style-type: none;
     margin-bottom: 30px;
   }
   
-  /* Styles for each category list item */
   .sidebarListItem {
     display: inline-block;
     width: 50%;
@@ -59,7 +52,6 @@
     cursor: pointer;
   }
   
-  /* Styles for the social icons container */
   .sidebarSocial {
     margin-top: 15px;
     width: 250px;
@@ -68,9 +60,7 @@
     justify-content: center;
   }
   
-  /* Styles for each social icon */
   .sidebarIcon {
     font-size: 16px;
     margin-left: 10px;
   }
-  
