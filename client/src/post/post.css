@@ -1,0 +1,62 @@
+.post {
+    width: 385px;  /* Set the width of the post container */
+    margin: 0px 25px 40px 25px;  /* Set the margins (top, right, bottom, left) of the post container */
+    display: flex;  /* Use flexbox layout for the post container */
+    flex-direction: column;  /* Arrange child elements in a column */
+  }
+  
+  .postImg {
+    width: 385px;  /* Set the width of the post image */
+    height: 280px;  /* Set the height of the post image */
+    object-fit: cover;  /* Scale the image to cover the entire container while maintaining aspect ratio */
+    border-radius: 7px;  /* Apply a border radius to create rounded corners */
+  }
+  
+  .postInfo {
+    display: flex;  /* Use flexbox layout for the post information container */
+    flex-direction: column;  /* Arrange child elements in a column */
+    align-items: center;  /* Center align child elements horizontally */
+  }
+  
+  .postCat {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;  /* Set the font family for post categories */
+    font-weight: 400;  /* Set the font weight for post categories */
+    font-size: 11px;  /* Set the font size for post categories */
+    color: #be9656;  /* Set the text color for post categories */
+    line-height: 19px;  /* Set the line height for post categories */
+    margin-top: 15px;  /* Set the top margin for post categories */
+    margin-right: 10px;  /* Set the right margin for post categories */
+    cursor: pointer;  /* Set the cursor style to pointer for interactivity */
+  }
+  
+  .postTitle {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;  /* Set the font family for post title */
+    font-size: 24px;  /* Set the font size for post title */
+    font-weight: 900;  /* Set the font weight for post title */
+    margin-top: 15px;  /* Set the top margin for post title */
+    cursor: pointer;  /* Set the cursor style to pointer for interactivity */
+  }
+  
+  .postDate {
+    font-family: "Lora", serif;  /* Set the font family for post date */
+    font-style: italic;  /* Set the font style to italic for post date */
+    font-size: 13px;  /* Set the font size for post date */
+    font-weight: 400;  /* Set the font weight for post date */
+    color: #999999;  /* Set the text color for post date */
+    margin-top: 15px;  /* Set the top margin for post date */
+  }
+  
+  .postDesc {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;  /* Set the font family for post description */
+    font-weight: 400;  /* Set the font weight for post description */
+    font-size: 14px;  /* Set the font size for post description */
+    line-height: 24px;  /* Set the line height for post description */
+    color: #444444;  /* Set the text color for post description */
+    margin-top: 15px;  /* Set the top margin for post description */
+    overflow: hidden;  /* Hide any overflowing content */
+    text-overflow: ellipsis;  /* Display an ellipsis (...) for overflowing text */
+    display: -webkit-box;  /* Use the -webkit-box display property for compatibility */
+    -webkit-line-clamp: 4;  /* Limit the number of lines to 4 for compatibility */
+    -webkit-box-orient: vertical;  /* Set the box orientation to vertical */
+  }
+  
