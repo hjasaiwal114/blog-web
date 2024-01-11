@@ -9,3 +9,23 @@
     z-index: 999;
     font-family: "Josefin Sans", sans-serif;
 }
+
+.topLeft,
+.topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topIcon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+.topCenter {
+    flex: 6;
+}
+
